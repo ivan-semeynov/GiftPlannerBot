@@ -1,0 +1,53 @@
+# =========================
+# Python / venv
+# =========================
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Data (raw / processed)
+# =========================
+data/raw/
+data/processed/
+
+# =========================
+# ML artifacts (models, vectors)
+# =========================
+src/ml/artifacts/
+*.pkl
+*.joblib
+*.npz
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Testing / tools
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
